@@ -14,3 +14,7 @@ slave repositories.
 
 ## Notes
 
+Doesn't provide links to the slave repositories like submodules do. But it is
+much smaller to clone down because it squashes the changes into a single commit
+but makes reference to the commits in the slave repository in the squashed
+commit. That way it can track the changes as necessary.
